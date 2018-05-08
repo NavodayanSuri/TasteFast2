@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Add_food_Activity">
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/imagebutton"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ItemNm"
+        android:hint="Enter Food Item Name"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textColorHighlight="#000"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ItemDec"
+        android:hint="Enter Item Description"
+        android:inputType="text"
+        android:textColor="#000"
+        android:textColorHighlight="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ItemPrize"
+        android:hint="Enter Item Prize"
+        android:inputType="number"
+        android:textColor="#000"
+        android:textColorHighlight="#000"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add item To Menu"
+        android:layout_marginTop="30dp"
+        android:onClick="AddFoodButtonCliked"
+        android:id="@+id/addfood"
+        />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "394386833712",
+    "firebase_url": "https://tastefast2.firebaseio.com",
+    "project_id": "tastefast2",
+    "storage_bucket": "tastefast2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394386833712:android:c6e5701c2bb816a5",
+        "android_client_info": {
+          "package_name": "com.example.surendrasingh.tastefast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394386833712-vprab9q0dcf1bsfotjmg7d0dbu20btk5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.surendrasingh.tastefast",
+            "certificate_hash": "880a462570b453ba07830029b6f78e6362c9404d"
+          }
+        },
+        {
+          "client_id": "394386833712-db3icd52830hul04rnlf3plhoviu6dsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgjYqTjnDjLKFbV98rph_3TZZ5PsXTtpw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394386833712-db3icd52830hul04rnlf3plhoviu6dsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
